@@ -1,6 +1,6 @@
-(ns clojure-web-db-app.test.handler
+(ns webapp.test.handler
   (:require [clojure.test :refer :all]
-            [clojure-web-db-app.handler :refer :all]
+            [webapp.handler :refer :all]
             [ring.mock.request :as mock]))
 
 (deftest test-app

@@ -4,7 +4,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.1.8"]]
   :plugins [[lein-ring "0.8.11"]]
-  :ring {:handler clojure-web-db-app.handler/app}
+  :ring {:handler webapp.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]

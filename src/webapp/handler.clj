@@ -1,4 +1,4 @@
-(ns clojure-web-db-app.handler
+(ns webapp.handler
   (:require [compojure.core :refer :all]
             [compojure.handler :as handler]
             [compojure.route :as route]))

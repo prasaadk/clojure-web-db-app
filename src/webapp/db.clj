@@ -25,7 +25,7 @@
 (find-actor-by-last-name "GUINESS")
 
 (defn select-values [map x]
-  (select-keys map x))
+  (vals (select-keys map x)))
 
 (defn find-top-n-actors [n]
-  (vec (map (fn[x] (select-values x [:last_name :first_name])) (select actor (limit n)))))
+  (vec (map (fn[x] (select-keys x [:last_name :first_name])) (select actor (limit n)))))

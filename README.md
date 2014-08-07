@@ -1,5 +1,7 @@
 # clojure-web-db-app
 
+This work is in-progress.
+
 A sample Web application using Compojure that talks to a mysql db (using Korma)
 
 ## Prerequisites

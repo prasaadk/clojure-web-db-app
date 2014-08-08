@@ -1,8 +1,7 @@
 (ns webapp.db
   (:use korma.db
         korma.core
-        korma.config)
-  )
+        korma.config))
 
 (def db (mysql {:db "sakila"
                 :user "test"

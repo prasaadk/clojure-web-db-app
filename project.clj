@@ -9,4 +9,7 @@
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]
                         [korma "0.3.0"]
-                        [mysql/mysql-connector-java "5.1.25"]]}})
+                        [mysql/mysql-connector-java "5.1.25"]
+                        [org.clojure/data.xml "0.0.7"]
+                        ]}})
+

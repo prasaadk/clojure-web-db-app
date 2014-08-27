@@ -11,5 +11,7 @@
                         [korma "0.3.0"]
                         [mysql/mysql-connector-java "5.1.25"]
                         [org.clojure/data.xml "0.0.7"]
+			[org.clojure/data.csv "0.1.2"]
+                        [ring.velocity "0.1.2"]
                         ]}})
 

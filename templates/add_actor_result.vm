@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActorAddResponse>
+	<Token>$token</Token>
+#if($success)
+    <ActorId>$actorId</ActorId>
+#elseif($errorId == 92)
+	<ErrorId>92</ErrorId>
+    <ErrorMessage>Some error by $actorId</ErrorMessage>
+#else
+	<ErrorId>90</ErrorId>
+    <ErrorMessage>Some error from $actorId</ErrorMessage>
+#end
+</ActorAddResponse>
